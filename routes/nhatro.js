@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var conn = require('../connect');
-var firstImage = require('../firstimage');
+var firstImage = require('../firstImage');
 var { check, validationResult } = require('express-validator');
 var multer = require('multer');
 var storageConfig = multer.diskStorage({
