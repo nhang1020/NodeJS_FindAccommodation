@@ -1,5 +1,5 @@
 {
-  "name": "luan_van_tot_nghiep_dai_hoc",
+  "name": "tim_tro_nodejs",
   "version": "1.0.0",
   "description": "He thong dang tin tim tro khu vuc tp long xuyen an giang",
   "main": "index.js",
@@ -9,13 +9,14 @@
     "build": "node index.js"
   },
   "keywords": [
-    "timtro",
-    "tankhoi"
+    "TimTro",
+    "NodeJS"
   ],
-  "author": "Vo Tan Khoi DH20PM",
+  "author": "Tran Thanh Nhang",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "dotenv": "^16.3.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
