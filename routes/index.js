@@ -2,7 +2,7 @@ var express = require('express');
 const { append } = require('express/lib/response');
 var router = express.Router();
 var conn = require('../connect');
-var firstImage = require('../firstimage');
+var firstImage = require('../firstImage');
 
 function numberFormat(num){
 	var n = new Intl.NumberFormat('en-US');
